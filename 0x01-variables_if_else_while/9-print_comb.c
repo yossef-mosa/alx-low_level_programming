@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-  *main - this is main function for the task
-  *Rutern: 0
+  * main - this is the main function for the task
+  *Return: Always 0 (Success)
   */
 int main(void)
 {
