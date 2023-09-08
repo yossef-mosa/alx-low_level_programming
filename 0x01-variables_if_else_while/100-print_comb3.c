@@ -12,8 +12,8 @@ for (j = i + 1 ; j < 10; j++)
 {
 putchar('0' + i);
 putchar('0' + j);
-putchar(',');
 if (i != 8)
+putchar(',');
 putchar(' ');
 }
 return (0);
