@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *main -this is main function for the task
+  *main - this is main function for the task
   *Rutern: 0
   */
 int main(void)
