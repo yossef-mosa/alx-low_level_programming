@@ -6,20 +6,18 @@
  */
 int main(void)
 {
-	long long int a = 1, b = 2, c;
+	long int a = 1, b = 2, c;
+	int count = 2;
 
-	printf("%lld, %lld", a, b);
-	int i;
-
-	for (i = 3; i <= 50; i++)
+	printf("%ld, %ld", a, b);
+	while (count < 50)
 	{
 		c = a + b;
-		printf(", %lld", c);
+		printf(", %ld", c);
 		a = b;
 		b = c;
+		count++;
 	}
-
 	printf("\n");
-
 	return (0);
 }
