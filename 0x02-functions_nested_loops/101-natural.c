@@ -15,6 +15,6 @@ int main(void)
 		}
 		i++;
 	}
-	print("%d", j);
+	printf("%d", j);
 	return (0);
 }
