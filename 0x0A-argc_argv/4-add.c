@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
+	}
 		printf("%d\n", total);
 		return (0);
-	}
 }
